@@ -1,0 +1,103 @@
+		/* Général */
+body{
+		font-family: 'Bungee' , impact , arial , sans serif;
+		margin: 0;
+		background-color: black;
+}
+
+		/* Menu de Navigation */
+
+
+#header{
+	margin-top: -38px;
+	background-image: url(img/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 0px 0px 60px 60px ;
+}
+#nav {
+	float: right;
+
+}
+#listnav {
+	list-style-type: none;
+	background-color: #e55039;
+	border-radius: 0px 0px 0px 60px ;
+	margin-top: 0px;
+	padding-top: 4px;
+	margin-bottom: 0px;
+	padding-bottom: 4px;
+	width: 300px;
+	text-align: center;
+
+}
+.pucenav a {
+	font-size: 1.1em;
+	color: #b71540;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+.pucenav a:hover {
+	color: #f6b93b;
+	border-top: 2px #fa983a solid;
+	border-bottom: 2px #fa983a solid;
+}
+#titre{
+	display: flex;
+	justify-content: center;
+	font-size: 3.3em;
+	color: #b71540;
+	text-shadow: 8px 8px 2px #e55039;
+	text-align: center;
+	
+}
+.logo-site{
+	float: left;
+	height: 300px;
+	margin-bottom: 20px;
+	width: auto;
+}
+
+		/* Article */
+
+article{
+	color: #fa983a;
+	margin-left: 40px;
+	margin-right: 40px;
+	border-top: 2px #e55039 solid;
+	border-radius: 20px;
+	border-bottom: 2px #e55039 solid;
+}
+h2{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: #e55039;
+}
+
+#logogithub{
+	background-color: white;
+	width: 10%;
+	border:8px solid #fa983a;
+}
+#logogithub:hover{
+	border:8px solid #f6b93b;
+}
+#contact{
+	display: flex;
+	justify-content: space-around;
+}
+#ressources{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+#logoinsta{
+	height: 90px;
+	width: auto;
+	
+}
