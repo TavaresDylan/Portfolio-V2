@@ -13,7 +13,7 @@ body{
 	background-image: url(img/background.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: auto;
+	background-size: cover;
 	border-radius: 0px 0px 60px 60px ;
 }
 #nav {
@@ -55,9 +55,9 @@ body{
 }
 .logo-site{
 	float: left;
-	margin-top: -47px;
-	height: 50%;
-	width: 20%;
+	height: 300px;
+	margin-bottom: 20px;
+	width: auto;
 }
 
 		/* Article */
@@ -71,12 +71,15 @@ article{
 	border-bottom: 2px #e55039 solid;
 }
 h2{
+	display: flex;
+	justify-content: center;
 	text-align: center;
 	text-decoration: underline;
 	text-decoration-color: #e55039;
 }
 
 #logogithub{
+	background-color: white;
 	width: 10%;
 	border:8px solid #fa983a;
 }
@@ -86,4 +89,15 @@ h2{
 #contact{
 	display: flex;
 	justify-content: space-around;
+}
+#ressources{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+#logoinsta{
+	height: 90px;
+	width: auto;
+	
 }
