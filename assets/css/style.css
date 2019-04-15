@@ -9,56 +9,42 @@ body{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	border-radius: 0px 0px 60px 60px ;
+	border-radius: 0px 0px 60px 60px;
 }
 #titre{
 	display: flex;
 	justify-content: center;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	font-size: 1.6em;
+	font-size: 200%;
 	color: #b71540;
 	text-shadow: 4px 4px 2px #e55039;
 	text-align: center;
 }
 /* Menu de Navigation */
-#nav {
-	font-size: 1em;
+#nav{
 	height: 60px;
 	background-color: rgba(229, 80, 57,1);
 	border-radius: 0px 0px 60px 60px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
 }
-#listnav {
+#listnav{
 	list-style-type: none;
 	display: flex;
 	flex-direction: row;
 }
-.pucenav{
-
-}
-.pucenav a {
+.pucenav a{
 	color: #b71540;
 	text-decoration: none;
-	margin-right: 20px;
+	margin-right: 5%;
 }
-
-.pucenav a:hover {
+.pucenav a:hover{
 	color: #f6b93b;
 	border-top: 2px #fa983a solid;
 	border-bottom: 2px #fa983a solid;
 }
-
-/*.logo-site{
-	float: left;
-	height: 300px;
-	margin-bottom: 20px;
-	width: auto;
-}*/
-
 /*BODY*//*BODY*//*BODY*/
 
 /*Article*/
@@ -73,46 +59,46 @@ article{
 	padding-top: 20px;
 }
 h2{
-
 	text-align: center;
 	text-decoration: underline;
 	text-decoration-color: #e55039;
 }
 #photo{
 	float: left;
-	height: 20%;
-	width: 20%;
-	margin-right: 5px;
+	height: 40%;
+	width: 40%;
+	margin-right: 5%;
 }
 #aboutmeP{
 	
 }
-		/*Contact*/
+/*Contact*/
 #contact{
 	text-align: center;
 }
-
 #logogithub{
-	height: 10%;
-	width: 10%;
-	border: none;
-}
-#logoinsta{
 	height: 15%;
 	width: 15%;
 	border: none;
 }
-#h2contact{
-
+#logoinsta{
+	height: 20%;
+	width: 20%;
+	border: none;
+}
+#pfooter{
+	margin-top: 5%;
+	font-size: 70%;
+	text-decoration: underline;
 }
 #logomail{
-	height: 10%;
-	width: 10%;
+	height: 15%;
+	width: 15%;
 	border: none;
 }
 #logofacebook{
-	height: 10%;
-	width: 10%;
+	height: 15%;
+	width: 15%;
 	border: none;
 }
 #p_réseaux{
@@ -121,13 +107,21 @@ h2{
 #formulaire{
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 	font-size: 0.8em;
 	padding-bottom: 20px;
 	padding-top: 20px;
+	align-items: center;
+
 }
 #textarea{
-	height: 50%;
+	display: flex;
+	justify-content: center;
+	height: 100%;
 	width: 50%;
+	align-items: center;
+	padding-bottom: 5%;
+	margin-top: 3%;
 }
 
 /*Ressources*/
@@ -140,8 +134,10 @@ h2{
 	padding-bottom: 20px;
 	padding-top: 15px;
 }
-.liens_ressources {
+.liens_ressources{
 	color: #b71540;
+	display: flex;
+	justify-content: center;
 	text-decoration: none;
 	width: 20%;
 }
@@ -152,7 +148,6 @@ h2{
 	text-decoration: none;
 	width: 20%;
 }
-
 
 /*FOOTER*//*FOOTER*//*FOOTER*/		
 #retourhome{
@@ -177,15 +172,17 @@ footer{
 	text-align: center;
 	font-size: 1.4em;
 }
-#comp {
+#comp{
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-left: 5px;
   margin-top: 30px;
   margin-bottom: 50px; }
-
-.progressbarre {
+#subBtn{
+	margin-top: 3%;
+}
+.progressbarre{
   color: white;
   justify-content: center;
   background-color: white;
@@ -193,7 +190,6 @@ footer{
   height: 30px;
   width: 50%;
   padding: 2px;
-  /*width: 100%;*/
   margin: 20px 0; }
 
 .progressbarre span {
