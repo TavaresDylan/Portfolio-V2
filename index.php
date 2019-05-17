@@ -1,7 +1,7 @@
 <?php
 include 'includes/header.php';
+require 'includes/function.php';
 ?>
-
 			<section>
 
 				<article>
@@ -37,10 +37,14 @@ include 'includes/header.php';
 						<a href="https://github.com/TavaresDylan" target="blank"><img id="logogithub"src="assets/img/Giticon.png" alt="logo gitub" title="Redirection Github"></a>
 					</div>
 
-					<form method="Post" id="formulaire">
-						<input class="rounded" type="email" name="email" placeholder="Mail" required="true">
-						<textarea class="rounded" id="textarea" placeholder="Votre message.."></textarea>
-						<button id="subBtn" type="submit" class="btn btn-outline-danger">Envoyer</button>
+					<form method="post" action="" id="formulaire">
+
+						<input class="rounded" type="email" name="mailfrom" placeholder="Mail" required="true">
+
+						<textarea class="rounded" name="msg" id="textarea" placeholder="Votre message.."></textarea>
+
+						<button id="subBtn" type="submit" name="sub" class="btn btn-outline-danger">Envoyer</button>
+
 					</form>
 
 				</article>
