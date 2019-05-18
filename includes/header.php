@@ -28,17 +28,16 @@
 			<header id="header">
 					<!-- Titre Principal de la page -->
 				<div class="container">
-				<h1 id="titre">Développement Web <br/>
-				Fullstack</h1>
+					<h1 id="titre">Développement Web <br/>Fullstack</h1>
 				</div>
 
 				<!-- Menu de navigation -->
 				<div>
 				<nav class="container-fluid" id="nav">
 					<ul id="listnav">			
-						<div class="pucenav">
+						
 						<li class="pucenav"><a href="#aboutme"><i class="material-icons">info</i>ABOUT ME</a></li>
-						</div>
+						
 						<li class="pucenav"><a href="#h2contact" target="blank"><i class="material-icons">contact_mail</i>CONTACT</a></li>
 
 						<li class="pucenav"><a href="assets/dl/TAVARES DYLAN CV industrie 14.02.19.pdf" target="blank"><i class="material-icons">save_alt</i>Mon CV</a></li>

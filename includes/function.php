@@ -1,5 +1,4 @@
 <?php
-require 'config.php';
 require 'vendor/autoload.php';
 function envoiMail($objet, $mailto, $msg, $cci = true)//:string
 {
@@ -15,7 +14,7 @@ function envoiMail($objet, $mailto, $msg, $cci = true)//:string
 	$mailer = new Swift_Mailer($transport);
 	// Create a message
 	$message = (new Swift_Message($objet))
-		->setFrom([$defaultmail]);
+		->setFrom($_POST["mailfrom"]);
 	if ($cci){
 		$message->setBcc($mailto);
 	}else{
@@ -41,8 +40,9 @@ function envoiMail($objet, $mailto, $msg, $cci = true)//:string
 	return $mailer->send($message);
 }
 if (!empty($_POST["mailfrom"]) && !empty($_POST["msg"])) {
-	envoiMail("Test objet Dylan",
-            		$_POST["mailfrom"],
-            		["html" => "", "text"=> $_POST["msg"]]
+	require 'config.php';
+	envoiMail("Contact depuis Portfolio",
+            		$defaultmail,
+            		["html" => "<p>E-mail envoyé depuis ".$_POST["mailfrom"]."</br> ".$_POST["msg"]."</p>", "text"=> ""]
           		 	);
 }
