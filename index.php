@@ -18,6 +18,7 @@ require 'includes/function.php';
 			<div class="progressbarre rouge stripes"><span style="width: 30%">JS</span></div>
 			<div class="progressbarre orange stripes"><span style="width: 60%">PHP</span></div>
 			<div class="progressbarre menthe stripes"><span style="width: 85%">GIT</span></div>
+			<div class="progressbarre blert stripes"><span style="width: 50%">SQL</span></div>
 		</div>			
 	</article>
 

@@ -38,7 +38,7 @@
 						
 						<li class="pucenav"><a href="#aboutme"><i class="material-icons">info</i>ABOUT ME</a></li>
 						
-						<li class="pucenav"><a href="#h2contact" target="blank"><i class="material-icons">contact_mail</i>CONTACT</a></li>
+						<li class="pucenav"><a href="#h2contact"><i class="material-icons">contact_mail</i>CONTACT</a></li>
 
 						<li class="pucenav"><a href="assets/dl/TAVARES DYLAN CV industrie 14.02.19.pdf" target="blank"><i class="material-icons">save_alt</i>Mon CV</a></li>
 
