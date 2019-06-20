@@ -1,0 +1,209 @@
+/* GENERAL *//* GENERAL *//* GENERAL */
+body{
+		font-family: 'Bungee' , impact , arial , sans serif;
+		background-color: #c1c1c1;
+		font-size: 12px;
+		line-height: 1.6em;
+		color: #2a2424;
+		box-sizing: border-box;
+		width: 80%;
+		margin: 0 auto;
+}
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 0px 0px 60px 60px;
+	height: 230px;
+}
+h1{
+	margin-top: 40px;
+	font-size: 4vh;
+	line-height: 5vh;
+	text-align: center;
+	color: #b71540;
+	text-shadow: 4px 4px 2px #e55039;
+}
+nav{
+	font-size: 1.8svh;
+	background: rgba(229, 80, 57,1);
+	display: flex;
+	justify-content: center;
+	border-radius: 0 0 60px 60px;
+    height: 57px;
+}
+ul{
+	display: flex;
+	justify-content: space-around;
+	width: 500px;
+}
+a{
+	color: #b71540;
+}
+a:hover{
+	color: #f6b93b;
+	text-decoration: none;
+}
+#photo{
+	display: block;
+	margin: 0 auto;
+	height: 30%;
+	width: 30%;
+	border-radius: 50%;
+}
+h2{
+	font-size: 2.6vh;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: #e55039;
+	color: #2a2424;
+	padding-bottom: 15px;
+	margin-top: 15px;
+}
+h3{
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: #e55039;
+	color: #2a2424;
+	padding-bottom: 15px;
+	margin-top: 15px;
+	font-size: 2.6vh;
+}
+p{
+	margin: 0 20px;
+}
+article{
+	margin-top: 10px;
+	border-top: 2px #e55039 solid;
+	border-radius: 20px;
+	border-bottom: 2px #e55039 solid;
+}
+#logos_contact{
+	display: flex;
+	justify-content: center;
+}
+.logo{
+	width: 50%;
+}
+form{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 12px 12px;
+}
+input, textarea{
+	text-align: center;
+}
+textarea{
+	min-height: 120px;
+}
+.googlemaps{
+	display:flex;
+	justify-content: center;
+}
+#ressources > a{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5px;
+}
+footer{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+/* Animation liens menu *//* Animation liens menu */
+.pucenav {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.pucenav::before, .pucenav::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #fa983a;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+.pucenav::before {
+  top: 0;
+  transform-origin: center right;
+}
+.pucenav:hover::before {
+  transform-origin: center left;
+  transform: scaleX(1);
+}
+.pucenav::after {
+  bottom: 0;
+  transform-origin: center left;
+}
+.pucenav:hover::after {
+  transform-origin: center right;
+  transform: scaleX(1);
+}
+.progressbarre{
+  color: white;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid black;
+  height: 30px;
+  width: 50%;
+  padding: 2px;
+  margin: 10px auto; }
+.progressbarre span {
+  text-align: center;
+  display: inline-block;
+  height: 100%;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  transition: width .4s ease-in-out; }
+
+.blue span {
+  background-color: #34c2e3; }
+
+.rouge span {
+  background-color: #FF1610; }
+
+.orange span {
+  background-color: orange; }
+
+.jaune span {
+  background-color: #fecf23;
+  background-image: linear-gradient(top, #fecf23, #fd9215); }
+
+.vert span {
+  background-color: #a5df41;
+  background-image: linear-gradient(top, #a5df41, #4ca916); }
+
+.blert span {
+  background-color: #0AACA6; }
+
+.menthe span {
+  background-color: #16B84E; }
+
+.sarcelle span {
+  background-color: #008E8E; }
+
+.beurre span {
+  background-color: #F0E36B; }
+
+  .violet span {
+	background-color: rgb(156, 23, 127); }
+
+.stripes span {
+  background-size: 30px 30px;
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  animation: animate-stripes 5s linear infinite; }
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 60px 0; } }

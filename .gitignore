@@ -1,2 +1,3 @@
 config.php
-/vendor
+www/public/vendor/
+.env
